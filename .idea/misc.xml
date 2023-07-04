@@ -4,6 +4,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/springboot-second-kill-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-tianai-captcha-demo/pom.xml" />
       </list>
     </option>
   </component>

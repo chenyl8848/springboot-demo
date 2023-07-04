@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/springboot-demo.iml" filepath="$PROJECT_DIR$/.idea/springboot-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-second-kill-demo/springboot-second-kill-demo.iml" filepath="$PROJECT_DIR$/springboot-second-kill-demo/springboot-second-kill-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-tianai-captcha-demo/springboot-tianai-captcha-demo.iml" filepath="$PROJECT_DIR$/springboot-tianai-captcha-demo/springboot-tianai-captcha-demo.iml" />
     </modules>
   </component>
 </project>
