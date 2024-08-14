@@ -12,12 +12,14 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="springboot-demo" target="1.8" />
       <module name="springboot-second-kill-demo" target="1.8" />
       <module name="springboot-tianai-captcha-demo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springboot-demo" options="-parameters" />
       <module name="springboot-second-kill-demo" options="-parameters" />
       <module name="springboot-tianai-captcha-demo" options="-parameters" />
     </option>

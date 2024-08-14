@@ -4,16 +4,15 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.cyl</groupId>
+    <groupId>com.codechen</groupId>
     <artifactId>springboot-tianai-captcha-demo</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>${parent.version}</version>
 
     <parent>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <groupId>org.springframework.boot</groupId>
-        <version>2.6.5</version>
+        <artifactId>springboot-demo</artifactId>
+        <groupId>com.codechen</groupId>
+        <version>1.0.0</version>
     </parent>
-
 
     <dependencies>
 
