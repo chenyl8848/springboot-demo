@@ -8,10 +8,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springboot-second-kill-demo" />
+        <module name="springboot-common-response-demo" />
         <module name="springboot-tianai-captcha-demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="springboot-common-response-demo" target="1.8" />
       <module name="springboot-demo" target="1.8" />
       <module name="springboot-second-kill-demo" target="1.8" />
       <module name="springboot-tianai-captcha-demo" target="1.8" />
@@ -19,6 +21,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springboot-common-response-demo" options="-parameters" />
       <module name="springboot-demo" options="-parameters" />
       <module name="springboot-second-kill-demo" options="-parameters" />
       <module name="springboot-tianai-captcha-demo" options="-parameters" />
