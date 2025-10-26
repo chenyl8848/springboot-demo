@@ -33,6 +33,7 @@
         <module>springboot-second-kill-demo</module>
         <module>springboot-tianai-captcha-demo</module>
         <module>springboot-common-response-demo</module>
+        <module>springboot-data-desensitized-demo</module>
     </modules>
 
 </project>
